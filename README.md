@@ -45,16 +45,16 @@ The end-to-end flow is as follows:
 
 ## ⚡ Pipeline Workflow
 
---**Upload Kaggle dataset** to dataset/ or configure GitHub repo as ingestion source.
---**Trigger Data Factory pipelines** to move data → Raw Data Lake (Bronze).
---**Run Databricks notebooks** for data transformations → Transformed Data Lake (Silver).
---**Execute Synapse SQL** scripts to create external data sources & tables → Gold Layer.
---**Connect Power BI** to Synapse and design dashboards.
+-- **Upload Kaggle dataset** to dataset/ or configure GitHub repo as ingestion source.
+-- **Trigger Data Factory pipelines** to move data → Raw Data Lake (Bronze).
+-- **Run Databricks notebooks** for data transformations → Transformed Data Lake (Silver).
+-- **Execute Synapse SQL** scripts to create external data sources & tables → Gold Layer.
+-- **Connect Power BI** to Synapse and design dashboards.
 
 ---
 ## 🚀 Future Enhancements
 
---**Implement CI/CD pipelines** with Azure DevOps
---**Add data quality checks** using Great Expectations
---**Use Delta Lake** for incremental loads and time travel
---**Deploy Power BI Embedded** for production reporting
+-- **Implement CI/CD pipelines** with Azure DevOps
+-- **Add data quality checks** using Great Expectations
+-- **Use Delta Lake** for incremental loads and time travel
+-- **Deploy Power BI Embedded** for production reporting
